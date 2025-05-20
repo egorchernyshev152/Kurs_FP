@@ -2133,3 +2133,26 @@ INFO: Unsupported notification method: $/setTrace
 мая 20, 2025 10:29:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2025.05.20 22:29:15 INFO  time: indexed workspace in 10s
+2025.05.20 22:34:47 INFO  Shutting down server
+2025.05.20 22:34:47 INFO  shutting down Metals
+2025.05.20 22:34:47 INFO  Shut down connection with build server.
+2025.05.20 22:34:47 INFO  Shut down connection with build server.
+2025.05.20 22:34:47 INFO  Exiting server
+2025.05.20 22:34:56 INFO  Started: Metals version 1.5.3 in folders 'C:\Users\toorr\v1' for client Visual Studio Code 1.100.2.
+2025.05.20 22:34:58 INFO  Attempting to connect to the build server...
+2025.05.20 22:34:58 INFO  Found a Bloop server running
+2025.05.20 22:34:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+мая 20, 2025 10:34:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+мая 20, 2025 10:34:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+мая 20, 2025 10:34:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.20 22:34:58 INFO  Attempting to connect to the build server...
+2025.05.20 22:34:58 INFO  Found a Bloop server running
+2025.05.20 22:34:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 22:34:58 INFO  time: Connected to build server in 0.44s
+2025.05.20 22:34:58 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.20 22:34:58 INFO  time: Imported build in 0.15s
+2025.05.20 22:34:59 WARN  2.13.10 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.05.20 22:35:04 INFO  time: indexed workspace in 5.5s
