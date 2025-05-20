@@ -7,20 +7,19 @@ import model._
 import scala.collection.immutable.LazyList
 
 /**
- * Простая реализация RecommendationAlg в функциональном стиле:
- * - Использует LazyList для ленивых вычислений
- * - Нормализация тегов через синонимы
- * - Функции matches и normalize реализованы чисто
- */
+  * Простая реализация RecommendationAlg на базе списка
+  * и функций из Cats (Monad[F].pure).
+  */
 class SimpleInterpreter[F[_]: Monad](db: Database) extends RecommendationAlg[F] {
-  // Словарь синонимов для тегов
+
+  // Словарь синонимов для нормализации тегов
   private val synonyms: Map[String, Set[String]] = Map(
-    "ml"   -> Set("machine learning", "машинное обучение"),
-    "cv"   -> Set("computer vision", "компьютерное зрение"),
-    "ai"   -> Set("artificial intelligence", "искусственный интеллект")
+    "ml" -> Set("machine learning"),
+    "cv" -> Set("computer vision"),
+    "ai" -> Set("artificial intelligence")
   )
 
-  // Приводим тег к множеству нормализованных версий
+  /** Приводим тег к множеству нормализованных значений */
   private def normalize(tag: String): Set[String] = {
     val low = tag.toLowerCase.trim
     synonyms
@@ -29,37 +28,57 @@ class SimpleInterpreter[F[_]: Monad](db: Database) extends RecommendationAlg[F] 
       .getOrElse(Set(low))
   }
 
-  // Проверяем, соответствует ли interest тегу
+  /** Соответствие интереса студента и тега материала */
   private def matches(interest: String, tag: String): Boolean =
     normalize(interest).contains(tag.toLowerCase.trim)
 
+  /** 
+    * Градация сложности материалов по курсу:
+    * курсы 1–2: сложность ≤ 2,
+    * курсы 3–4: сложность ≤ 3 (максимум).
+    */
+  private def maxDifficultyFor(course: Int): Int =
+    if (course <= 2) 2 else 3
+
+  /** Рекомендуем темы: просто все, где есть пересечение тегов */
   override def suggestTopics(student: Student): F[LazyList[Topic]] =
     Monad[F].pure(
-      db.topics.to(LazyList).filter(t =>
-        student.interests.exists(i => t.tags.exists(matches(i, _)))
-      )
+      db.topics.to(LazyList)
+        .filter(t => student.interests.exists(i => t.tags.exists(matches(i, _))))
     )
 
-  override def suggestConferences(student: Student): F[LazyList[Conference]] =
+  /** Рекомендуем конференции по тегам + сложности + сортируем по рейтингу */
+  override def suggestConferences(student: Student): F[LazyList[Conference]] = {
+    val md = maxDifficultyFor(student.course)
     Monad[F].pure(
-      db.conferences.to(LazyList).filter(c =>
-        student.interests.exists(i => c.topics.exists(matches(i, _)))
-      )
+      db.conferences.to(LazyList)
+        .filter(c => student.interests.exists(i => c.topics.exists(matches(i, _))))
+        .filter(_.difficulty <= md)
+        .sortBy(c => -c.rating)
     )
+  }
 
- override def suggestProfessors(student: Student): F[LazyList[Professor]] =
-  Monad[F].pure(
-    db.professors.to(LazyList).filter { p =>
-      student.interests.exists(matches(_, p.areas.head /*или другая логика*/) )
-    }
-  )
+  /** Рекомендуем преподавателей по области + доступности + сортировка по hIndex */
+  override def suggestProfessors(student: Student): F[LazyList[Professor]] = {
+    val base = db.professors.to(LazyList)
+      .filter(_.available)
+      .filter(p => student.interests.exists(i => p.areas.exists(matches(i, _))))
 
+    val sorted =
+      if (student.course <= 2) base.sortBy(_.hIndex)      // новичкам — низкий hIndex
+      else base.sortBy(p => -p.hIndex)                    // старшекурсникам — высокий
 
-  override def suggestArticles(student: Student): F[LazyList[Article]] =
+    Monad[F].pure(sorted)
+  }
+
+  /** Рекомендуем статьи по тегам + сложности + сортировка по году (самые новые выше) */
+  override def suggestArticles(student: Student): F[LazyList[Article]] = {
+    val md = maxDifficultyFor(student.course)
     Monad[F].pure(
-     db.articles.to(LazyList).filter(a =>
-  student.interests.exists(matches(_, a.topic))
-)
-
+      db.articles.to(LazyList)
+        .filter(a => student.interests.exists(matches(_, a.topic)))
+        .filter(_.difficulty <= md)
+        .sortBy(a => -a.year)
     )
+  }
 }

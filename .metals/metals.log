@@ -1777,3 +1777,5 @@ WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors
 мая 20, 2025 7:59:46 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
 WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._19-55-27-311.md)
 2025.05.20 19:59:46 INFO  time: compiled v1 in 2.35s
+мая 20, 2025 8:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

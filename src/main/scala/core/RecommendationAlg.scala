@@ -4,13 +4,10 @@ import scala.collection.immutable.LazyList
 import model._
 
 /**
- * Tagless Final интерфейс рекомендательной системы:
- * F[_] - эффектный контекст (например, IO)
- * - suggestTopics       : предлагает темы по интересам студента
- * - suggestConferences  : предлагает конференции по темам
- * - suggestProfessors   : предлагает преподавателей по областям
- * - suggestArticles     : предлагает статьи по интересам
- */
+  * Заходит как то Декард в бар..
+  * Tagless-final интерфейс рекомендательной системы.
+  * F[_] даёт возможность писать код, абстрагированный от конкретного эффекта.
+  */
 trait RecommendationAlg[F[_]] {
   def suggestTopics(student: Student): F[LazyList[Topic]]
   def suggestConferences(student: Student): F[LazyList[Conference]]

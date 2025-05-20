@@ -1,20 +1,9 @@
 Student,egor
 Topic,Machine Learning
-Topic,Computer Vision
-Conference,NeurIPS
-Conference,ICML
-Conference,CVPR
-Conference,ICCV
-Conference,ECCV
+Topic,Artificial Intelligence
+Professor,Wilson_14
 Professor,Smith_1
-Professor,Williams_3
-Professor,Jones_5
-Professor,Martinez_10
-Professor,Gonzalez_13
 Professor,Taylor_17
-Professor,Moore_18
-Article,Deep Learning Approaches
-Article,Vision Transformers Survey
+Article,AI Ethics and Policy
 Article,Neural Network Optimization
-Article,Generative Adversarial Networks
 Article,Self-Supervised Learning
