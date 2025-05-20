@@ -1779,3 +1779,335 @@ WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conference
 2025.05.20 19:59:46 INFO  time: compiled v1 in 2.35s
 мая 20, 2025 8:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+мая 20, 2025 8:29:26 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-20\r_empty-definition_(v1)_20-29-26-626.md)
+2025.05.20 20:29:28 INFO  compiling v1 (1 scala source)
+2025.05.20 20:29:31 INFO  time: compiled v1 in 3.03s
+2025.05.20 20:29:31 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:29:31 INFO  time: compiled v1 in 0.78s
+2025.05.20 20:29:37 INFO  compiling v1 (2 scala sources)
+2025.05.20 20:29:39 INFO  time: compiled v1 in 1.91s
+2025.05.20 20:29:39 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:29:39 INFO  time: compiled v1 in 0.68s
+2025.05.20 20:29:49 INFO  compiling v1 (3 scala sources)
+2025.05.20 20:29:51 INFO  time: compiled v1 in 1.96s
+2025.05.20 20:29:51 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:29:51 INFO  time: compiled v1 in 0.53s
+2025.05.20 20:30:04 INFO  compiling v1 (4 scala sources)
+2025.05.20 20:30:06 INFO  time: compiled v1 in 1.96s
+2025.05.20 20:30:06 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:30:06 INFO  time: compiled v1 in 0.56s
+2025.05.20 20:30:13 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:30:15 INFO  time: compiled v1 in 2.12s
+2025.05.20 20:30:15 INFO  compiling v1 (5 scala sources)
+2025.05.20 20:30:15 INFO  time: compiled v1 in 0.53s
+2025.05.20 20:30:16 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\service\CsvRepository.scala
+2025.05.20 20:30:21 INFO  compiling v1 (11 scala sources)
+2025.05.20 20:30:21 INFO  time: compiled v1 in 0.7s
+2025.05.20 20:30:30 INFO  compiling v1 (11 scala sources)
+2025.05.20 20:30:30 INFO  time: compiled v1 in 0.73s
+2025.05.20 20:30:38 INFO  compiling v1 (11 scala sources)
+2025.05.20 20:30:38 INFO  time: compiled v1 in 0.83s
+2025.05.20 20:30:46 INFO  compiling v1 (11 scala sources)
+мая 20, 2025 8:30:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._19-55-27-319.md)
+мая 20, 2025 8:30:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._19-55-27-297.md)
+мая 20, 2025 8:30:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._19-55-27-311.md)
+мая 20, 2025 8:30:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._19-55-27-305.md)
+2025.05.20 20:30:50 INFO  time: compiled v1 in 4.06s
+мая 20, 2025 8:33:28 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-33-28-899.md)
+мая 20, 2025 8:33:28 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-33-28-911.md)
+мая 20, 2025 8:33:28 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-33-28-922.md)
+мая 20, 2025 8:33:28 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-33-28-929.md)
+2025.05.20 20:40:15 INFO  Disconnecting from Bloop session...
+2025.05.20 20:40:15 INFO  Shut down connection with build server.
+2025.05.20 20:40:15 INFO  Shut down connection with build server.
+2025.05.20 20:40:15 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2025.05.20 20:40:15 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2025.05.20 20:40:15 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.05.20 20:40:15 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.05.20 20:40:15 INFO  Attempting to connect to the build server...
+2025.05.20 20:40:15 INFO  No running Bloop server found, starting one.
+2025.05.20 20:40:16 INFO  Starting compilation server
+2025.05.20 20:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 20:40:21 INFO  Attempting to connect to the build server...
+2025.05.20 20:40:21 INFO  Found a Bloop server running
+2025.05.20 20:40:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 20:40:21 INFO  time: Connected to build server in 6.16s
+2025.05.20 20:40:21 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.20 20:40:22 INFO  time: Imported build in 0.2s
+2025.05.20 20:40:24 INFO  time: indexed workspace in 2.11s
+2025.05.20 20:40:39 INFO  running 'C:\Users\toorr\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\toorr\AppData\Local\Temp\metals9583466935504896573\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.20 20:40:41 INFO  [info] welcome to sbt 1.10.11 (Eclipse Adoptium Java 17.0.13)
+2025.05.20 20:40:41 INFO  [info] loading settings for project v1-build-build from metals.sbt...
+2025.05.20 20:40:42 INFO  [info] loading project definition from C:\Users\toorr\v1\project\project
+2025.05.20 20:40:43 INFO  [info] loading settings for project v1-build from metals.sbt...
+2025.05.20 20:40:43 INFO  [info] loading project definition from C:\Users\toorr\v1\project
+2025.05.20 20:40:47 INFO  [success] Generated .bloop\v1-build.json
+2025.05.20 20:40:47 INFO  [success] Total time: 3 s, completed 20 РјР°СЏ 2025 Рі., 20:40:47
+2025.05.20 20:40:47 INFO  [info] loading settings for project v1 from build.sbt...
+2025.05.20 20:40:47 INFO  [info] set current project to StudentPubRecommender (in build file:/C:/Users/toorr/v1/)
+2025.05.20 20:40:48 INFO  [success] Generated .bloop\v1.json
+2025.05.20 20:40:48 INFO  [success] Generated .bloop\v1-test.json
+2025.05.20 20:40:48 INFO  [success] Total time: 0 s, completed 20 РјР°СЏ 2025 Рі., 20:40:48
+2025.05.20 20:40:48 INFO  time: ran 'sbt bloopInstall' in 9.21s
+2025.05.20 20:40:48 INFO  Disconnecting from Bloop session...
+2025.05.20 20:40:48 INFO  Shut down connection with build server.
+2025.05.20 20:40:48 INFO  Shut down connection with build server.
+2025.05.20 20:40:48 INFO  Attempting to connect to the build server...
+2025.05.20 20:40:48 INFO  Found a Bloop server running
+2025.05.20 20:40:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 20:40:48 INFO  Attempting to connect to the build server...
+2025.05.20 20:40:48 INFO  Found a Bloop server running
+2025.05.20 20:40:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 20:40:48 INFO  time: Connected to build server in 0.32s
+2025.05.20 20:40:48 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.20 20:40:50 INFO  time: indexed workspace in 1.92s
+мая 20, 2025 8:50:56 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-20\r_empty-definition_(v1)_20-50-56-139.md)
+2025.05.20 20:51:03 INFO  compiling v1 (1 scala source)
+мая 20, 2025 8:51:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 8:51:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 8:51:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 8:51:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+2025.05.20 20:51:09 INFO  time: compiled v1 in 5.71s
+2025.05.20 20:56:33 INFO  compiling v1 (1 scala source)
+2025.05.20 20:56:38 WARN  2 deprecations (since 2.10.0); re-run with -deprecation for details
+мая 20, 2025 8:56:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 8:56:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 8:56:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 8:56:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+2025.05.20 20:56:38 INFO  time: compiled v1 in 5.48s
+2025.05.20 21:00:47 INFO  no build target found for /cats/effect/kernel/Ref.scala. Using presentation compiler with project's scala-library version: 2.13.16
+2025.05.20 21:00:49 INFO  compiling v1 (1 scala source)
+мая 20, 2025 9:00:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 9:00:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 9:00:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 9:00:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+2025.05.20 21:00:49 INFO  time: compiled v1 in 0.75s
+2025.05.20 21:01:43 INFO  compiling v1 (1 scala source)
+мая 20, 2025 9:01:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 9:01:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 9:01:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 9:01:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+2025.05.20 21:01:45 INFO  time: compiled v1 in 1.73s
+мая 20, 2025 9:01:46 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-19\r_empty-definition_(v1)_19-18-59-503.md)
+2025.05.20 21:09:12 INFO  no build target found for /cats/effect/kernel/Ref.scala. Using presentation compiler with project's scala-library version: 3.3.6
+мая 20, 2025 9:18:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13676
+2025.05.20 21:25:52 INFO  compiling v1 (1 scala source)
+2025.05.20 21:25:52 INFO  time: compiled v1 in 0.91s
+2025.05.20 21:25:53 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+мая 20, 2025 9:25:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-20\r_empty-definition_(v1)_21-25-57-600.md)
+2025.05.20 21:25:57 INFO  no build target found for /cats/effect/IO.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.20 21:25:59 INFO  compiling v1 (2 scala sources)
+2025.05.20 21:25:59 INFO  time: compiled v1 in 0.35s
+2025.05.20 21:29:23 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:29:26 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:29:26 INFO  compiling v1 (2 scala sources)
+2025.05.20 21:29:26 INFO  time: compiled v1 in 0.18s
+2025.05.20 21:29:27 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:29:33 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:29:39 INFO  compiling v1 (2 scala sources)
+2025.05.20 21:29:40 INFO  time: compiled v1 in 1.15s
+2025.05.20 21:30:18 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:30:19 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:30:57 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:32:24 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:07 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:08 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:08 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:08 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:10 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:35:10 INFO  compiling v1 (2 scala sources)
+2025.05.20 21:35:10 INFO  time: compiled v1 in 0.97s
+2025.05.20 21:35:11 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+мая 20, 2025 9:35:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14255
+мая 20, 2025 9:35:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14258
+2025.05.20 21:35:34 INFO  compiling v1 (2 scala sources)
+2025.05.20 21:35:35 INFO  time: compiled v1 in 1.28s
+мая 20, 2025 9:35:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14288
+2025.05.20 21:48:09 INFO  compiling v1 (3 scala sources)
+2025.05.20 21:48:09 INFO  time: compiled v1 in 0.96s
+2025.05.20 21:48:10 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\model\Models.scala
+2025.05.20 21:48:22 INFO  compiling v1 (4 scala sources)
+2025.05.20 21:48:22 INFO  time: compiled v1 in 0.77s
+2025.05.20 21:48:23 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\core\RecommendationAlg.scala
+2025.05.20 21:48:35 INFO  compiling v1 (5 scala sources)
+2025.05.20 21:48:35 INFO  time: compiled v1 in 0.84s
+2025.05.20 21:48:45 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:48:45 INFO  time: compiled v1 in 0.9s
+2025.05.20 21:48:53 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:48:53 INFO  time: compiled v1 in 0.75s
+2025.05.20 21:49:04 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:49:04 INFO  time: compiled v1 in 0.79s
+2025.05.20 21:49:05 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\service\DataLoader.scala
+2025.05.20 21:49:12 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:49:12 INFO  time: compiled v1 in 0.79s
+2025.05.20 21:49:13 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\service\ExportService.scala
+2025.05.20 21:49:22 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:49:23 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:49:23 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:49:24 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:49:24 INFO  time: compiled v1 in 0.81s
+2025.05.20 21:49:25 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:49:33 INFO  compiling v1 (11 scala sources)
+2025.05.20 21:49:33 INFO  time: compiled v1 in 0.75s
+2025.05.20 21:49:36 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:37 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:39 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:40 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:41 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:42 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:43 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:44 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:44 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:44 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:45 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:46 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:54 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:55 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:57 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:51:59 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\ui\ConsoleUI.scala
+2025.05.20 21:52:00 INFO  compiling v1 (11 scala sources)
+мая 20, 2025 9:52:06 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 9:52:06 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 9:52:06 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 9:52:06 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+2025.05.20 21:52:06 INFO  time: compiled v1 in 6.06s
+2025.05.20 22:07:43 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:07:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:07:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 10:07:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 10:07:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+2025.05.20 22:07:44 INFO  time: compiled v1 in 1.15s
+мая 20, 2025 10:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15303
+мая 20, 2025 10:08:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15324
+мая 20, 2025 10:09:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15665
+мая 20, 2025 10:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16375
+мая 20, 2025 10:11:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16460
+мая 20, 2025 10:11:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16474
+мая 20, 2025 10:12:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16538
+мая 20, 2025 10:12:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16539
+мая 20, 2025 10:12:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16687
+2025.05.20 22:12:27 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:12:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 10:12:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 10:12:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:12:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+2025.05.20 22:12:29 INFO  time: compiled v1 in 1.36s
+2025.05.20 22:13:07 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:13:08 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:13:08 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 10:13:08 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 10:13:08 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+2025.05.20 22:13:08 INFO  time: compiled v1 in 1.31s
+2025.05.20 22:13:20 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:13:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 10:13:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 10:13:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:13:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+2025.05.20 22:13:21 INFO  time: compiled v1 in 1s
+2025.05.20 22:13:31 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:13:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+мая 20, 2025 10:13:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:13:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 10:13:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+2025.05.20 22:13:32 INFO  time: compiled v1 in 1.08s
+2025.05.20 22:15:29 INFO  compiling v1 (1 scala source)
+мая 20, 2025 10:15:30 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-337.md)
+мая 20, 2025 10:15:30 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-330.md)
+мая 20, 2025 10:15:30 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-400.md)
+мая 20, 2025 10:15:30 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-20\r_Unexpected error whe..._20-51-09-392.md)
+2025.05.20 22:15:30 INFO  time: compiled v1 in 1.26s
+мая 20, 2025 10:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17233
+мая 20, 2025 10:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17236
+мая 20, 2025 10:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17238
+2025.05.20 22:17:30 INFO  compiling v1 (1 scala source)
+2025.05.20 22:17:30 INFO  time: compiled v1 in 0.96s
+2025.05.20 22:17:39 INFO  compiling v1 (1 scala source)
+2025.05.20 22:17:40 INFO  time: compiled v1 in 1.04s
+2025.05.20 22:17:52 INFO  compiling v1 (1 scala source)
+2025.05.20 22:17:52 INFO  time: compiled v1 in 0.91s
+2025.05.20 22:19:34 INFO  compiling v1 (1 scala source)
+2025.05.20 22:19:36 INFO  time: compiled v1 in 1.27s
+2025.05.20 22:19:39 INFO  compiling v1 (1 scala source)
+2025.05.20 22:19:40 INFO  time: compiled v1 in 1.13s
+мая 20, 2025 10:23:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17933
+мая 20, 2025 10:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18031
+2025.05.20 22:24:05 INFO  compiling v1 (1 scala source)
+2025.05.20 22:24:05 INFO  time: compiled v1 in 0.51s
