@@ -29,7 +29,7 @@ object ConsoleUI {
 
   // Чтение имени студента (не пустое)
   def readName(): IO[String] =
-    readValid("Введите имя студента:") { s =>
+    readValid("Введите имя:") { s =>
       if (s.nonEmpty) Right(s) else Left("Имя не должно быть пустым")
     }
 
@@ -40,7 +40,7 @@ object ConsoleUI {
         .toRight("Курс должен быть числом от 1 до 4")
     }
 
-  // Выбор интересов из списка тем: показываем номера и читаем "1,3,5"
+  // Выбор интересов из списка тем: показываем номера и читаем 
   def readInterests(topics: List[String]): IO[List[String]] = for {
     _   <- IO { println("Доступные темы:"); topics.zipWithIndex.foreach { case (t,i) =>
              println(s"${i+1}) $t") } }

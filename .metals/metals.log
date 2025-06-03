@@ -2156,3 +2156,159 @@ INFO: Unsupported notification method: $/setTrace
 2025.05.20 22:34:58 INFO  time: Imported build in 0.15s
 2025.05.20 22:34:59 WARN  2.13.10 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
 2025.05.20 22:35:04 INFO  time: indexed workspace in 5.5s
+2025.05.20 22:37:10 INFO  Disconnecting from Bloop session...
+2025.05.20 22:37:10 INFO  Shut down connection with build server.
+2025.05.20 22:37:10 INFO  Shut down connection with build server.
+2025.05.20 22:37:10 INFO  Attempting to connect to the build server...
+2025.05.20 22:37:10 INFO  No running Bloop server found, starting one.
+2025.05.20 22:37:11 INFO  Starting compilation server
+2025.05.20 22:37:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 22:37:15 INFO  Attempting to connect to the build server...
+2025.05.20 22:37:15 INFO  Found a Bloop server running
+2025.05.20 22:37:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.20 22:37:15 INFO  time: Connected to build server in 4.69s
+2025.05.20 22:37:15 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.20 22:37:15 INFO  time: Imported build in 0.13s
+2025.05.20 22:37:17 INFO  time: indexed workspace in 1.79s
+2025.05.20 22:39:09 INFO  Shutting down server
+2025.05.20 22:39:09 INFO  shutting down Metals
+2025.05.20 22:39:09 INFO  Shut down connection with build server.
+2025.05.20 22:39:09 INFO  Shut down connection with build server.
+2025.05.20 22:39:09 INFO  Exiting server
+2025.05.28 01:49:11 INFO  Started: Metals version 1.5.3 in folders 'C:\Users\toorr\v1' for client Visual Studio Code 1.100.2.
+2025.05.28 01:49:12 INFO  Attempting to connect to the build server...
+2025.05.28 01:49:12 INFO  Found a Bloop server running
+2025.05.28 01:49:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.28 01:49:12 INFO  Attempting to connect to the build server...
+2025.05.28 01:49:12 INFO  Found a Bloop server running
+2025.05.28 01:49:12 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\impl\SimpleInterpreter.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 01:49:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.28 01:49:13 INFO  time: Connected to build server in 0.45s
+2025.05.28 01:49:13 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.28 01:49:13 INFO  time: Imported build in 0.21s
+2025.05.28 01:49:16 WARN  2.13.10 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.05.28 01:49:26 INFO  time: indexed workspace in 10s
+мая 28, 2025 1:54:02 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-20\r_empty-definition_(v1)_20-50-56-139.md)
+2025.05.28 01:54:04 INFO  compiling v1 (1 scala source)
+мая 28, 2025 1:54:14 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-020.md)
+мая 28, 2025 1:54:14 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-048.md)
+мая 28, 2025 1:54:14 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-059.md)
+мая 28, 2025 1:54:14 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-071.md)
+2025.05.28 01:54:14 INFO  time: compiled v1 in 9.64s
+2025.05.28 01:54:40 INFO  compiling v1 (1 scala source)
+2025.05.28 01:54:41 WARN  Could not load snapshot text for C:\Users\toorr\v1\src\main\scala\impl\SimpleInterpreter.scala
+мая 28, 2025 1:54:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-048.md)
+мая 28, 2025 1:54:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-059.md)
+мая 28, 2025 1:54:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-071.md)
+мая 28, 2025 1:54:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-020.md)
+2025.05.28 01:54:44 INFO  time: compiled v1 in 4.35s
+2025.05.28 01:55:00 INFO  compiling v1 (1 scala source)
+мая 28, 2025 1:55:04 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-071.md)
+мая 28, 2025 1:55:04 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-059.md)
+мая 28, 2025 1:55:04 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-048.md)
+мая 28, 2025 1:55:04 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-020.md)
+2025.05.28 01:55:04 INFO  time: compiled v1 in 3.55s
+2025.05.28 01:55:25 INFO  compiling v1 (1 scala source)
+мая 28, 2025 1:55:28 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\conferences.csv to <WORKSPACE>\.bloop\v... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-059.md)
+мая 28, 2025 1:55:28 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\articles.csv to <WORKSPACE>\.bloop\v1\b... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-048.md)
+мая 28, 2025 1:55:28 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\professors.csv to <WORKSPACE>\.bloop\v1... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-071.md)
+мая 28, 2025 1:55:28 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: Unexpected error when copying <WORKSPACE>\src\main\resources\topics.csv to <WORKSPACE>\.bloop\v1\blo... (full report at: C:\Users\toorr\v1\.metals\.reports\bloop\2025-05-28\r_Unexpected error whe..._01-54-14-020.md)
+2025.05.28 01:55:28 INFO  time: compiled v1 in 3.09s
+2025.05.28 11:09:49 INFO  Started: Metals version 1.5.3 in folders 'C:\Users\toorr\v1' for client Visual Studio Code 1.100.2.
+2025.05.28 11:09:54 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\impl\SimpleInterpreter.scala. Using presentation compiler with project's scala-library version: 3.3.6
+мая 28, 2025 11:09:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+мая 28, 2025 11:09:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.05.28 11:09:59 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:09:59 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\impl\SimpleInterpreter.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:09:59 INFO  Attempting to connect to the build server...
+2025.05.28 11:09:59 INFO  No running Bloop server found, starting one.
+2025.05.28 11:10:00 WARN  no build target for: C:\Users\toorr\v1\src\main\scala\MainApp.scala
+мая 28, 2025 11:10:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.05.28 11:09:59 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+мая 28, 2025 11:10:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+мая 28, 2025 11:10:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2025.05.28 11:10:01 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+мая 28, 2025 11:10:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2025.05.28 11:10:02 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:02 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:05 INFO  Starting compilation server
+2025.05.28 11:10:05 INFO  no build target found for C:\Users\toorr\v1\src\main\scala\MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.28 11:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.28 11:10:17 INFO  Attempting to connect to the build server...
+2025.05.28 11:10:17 INFO  Found a Bloop server running
+2025.05.28 11:10:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\toorr\v1\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.28 11:10:17 INFO  time: Connected to build server in 17s
+2025.05.28 11:10:17 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.28 11:10:17 INFO  time: Imported build in 0.18s
+2025.05.28 11:10:17 WARN  2.13.10 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.05.28 11:10:49 INFO  time: indexed workspace in 31s
+2025.05.28 11:11:24 INFO  compiling v1 (1 scala source)
+2025.05.28 11:11:30 INFO  time: compiled v1 in 5.54s
+2025.05.28 11:12:38 INFO  compiling v1 (1 scala source)
+2025.05.28 11:12:40 INFO  time: compiled v1 in 2.5s
+2025.05.28 11:13:51 INFO  compiling v1 (1 scala source)
+мая 28, 2025 11:13:51 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-28\r_empty-definition_(v1)_11-13-51-688.md)
+2025.05.28 11:13:54 INFO  time: compiled v1 in 3.22s
+мая 28, 2025 11:18:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 685
+мая 28, 2025 11:18:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 686
+мая 28, 2025 11:18:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 688
+мая 28, 2025 11:18:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 691
+мая 28, 2025 11:19:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 754
+2025.05.28 11:19:09 INFO  compiling v1 (1 scala source)
+2025.05.28 11:19:10 INFO  time: compiled v1 in 1.64s
+мая 28, 2025 11:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 802
+2025.05.28 11:19:44 INFO  time: code lens generation in 3.66s
+мая 28, 2025 12:48:26 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-28\r_empty-definition_(v1)_12-48-26-037.md)
+Exception in thread "pool-14-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+мая 28, 2025 12:48:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-28\r_empty-definition_(v1)_12-48-44-492.md)
+мая 28, 2025 12:48:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\Users\toorr\v1\.metals\.reports\metals-full\2025-05-28\r_empty-definition_(v1)_12-48-44-518.md)
+2025.05.28 13:01:05 INFO  Shutting down server
+2025.05.28 13:01:05 INFO  shutting down Metals
+2025.05.28 13:01:05 INFO  Shut down connection with build server.
+2025.05.28 13:01:05 INFO  Shut down connection with build server.
+2025.05.28 13:01:05 INFO  Exiting server

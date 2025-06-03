@@ -42,7 +42,7 @@ object AdminMenu {
   def run(profRef: Ref[IO, List[Professor]], profRepo: Repository[Professor]): IO[Unit] = {
 
     def loop: IO[Unit] = for {
-      cmd <- readValid("Админ-меню:\n1) Добавить  2) Удалить  3) Показать всех  4) Выйти\nВыберите (1-4):") {
+      cmd <- readValid("Админ-меню:\n1) Добавить  \n2) Удалить  \n3) Показать всех  \n4) Выйти\nВыберите (1-4):") {
                case s @ ("1"|"2"|"3"|"4") => Right(s); case _ => Left("Ожидается 1 - 4")
              }
       _ <- cmd match {
